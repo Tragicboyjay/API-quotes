@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Work+Sans&display=swap');
+
+body{
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+    width: 45dvw;
+    height: 35dvh;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+h1{
+    text-align: center;
+    font-family: 'Merriweather', serif; 
+}
+
+#quote{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+h4{
+    /* display: none; */
+    text-align: center;
+    font-family: 'Merriweather', serif;   
+}
+
+#author{
+    font-family: 'Work Sans', sans-serif;
+}
+
+button{
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    border: solid #89CFF0 1px;
+    background-color: #89CFF0;
+    color: white;
+    font-weight: bold;
+    padding: .5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+
+}
+
+button:hover{
+    background-color: white;
+    color: #89CFF0;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 767px) {
+    .container{
+        width: 95dvw;
+        height: 95dvh;
+        border-radius: 0%;
+        box-shadow: none;
+    }
+  }
